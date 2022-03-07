@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Temperature</title>
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-md navbar-light" style="background-color: white" id="navigationlist">
+            <a class="navbar-brand upper-left-label" href="index.html">Latitude</a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink"
+                            role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="temperature.html">Max Temp</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="pos-f-t">
+        <nav class="navbar navbar-light justify-content-between" style="background-color: #22d6af" id="smallScreenNav">
+            <a href="index.html">
+                <h2 class="nav-header">Latitude</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <nav class="navbar bg-light">
+                <ul class="navbar-nav custom-nav-ul">
+                    <li class="nav-item dropdown custom-nav-li">
+                        <a class="nav-link dropdown-toggle custom-nav-a" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item custom-nav-a" href="temperature.html">Max Temperature</a>
+                            <a class="dropdown-item custom-nav-a" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item custom-nav-a" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item custom-nav-a" href="windspeed.html">Wind Speed</a>
+                        </div>
+                    </li>
+                    <li class="nav-item custom-nav-li">
+                        <a class="nav-link custom-nav-a" href="comparisons.html">Comparisons</a>
+                    </li>
+                    <li class="nav-item custom-nav-li">
+                        <a class="nav-link custom-nav-a" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="container">
+        <section class="row">
+            <div class="col-md-8">
+                <article class="fill">
+                    <h2 class="custom-header">Max Temperature</h2>
+                    <img src="visualizations/Fig1.png" class="img-fluid">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ullam quisquam velit veniam distinctio
+                    consectetur doloribus vero unde nisi facilis nostrum sit explicabo tempora recusandae sapiente ipsa
+                    temporibus omnis provident eveniet illo vel laboriosam fugit, eligendi quo! Ea, earum eaque.
+                    Repudiandae ad vitae quas dignissimos laboriosam libero iste, nisi adipisci reiciendis consequuntur,
+                    nihil quasi. Quae quisquam facilis ea id velit voluptatem voluptatum reiciendis atque tempora
+                    soluta, dolore aperiam suscipit voluptates, unde voluptate porro provident aspernatur. Ullam harum
+                    velit eveniet amet placeat repellendus soluta impedit voluptate eos quasi illum eius aspernatur quam
+                    quis id a vero, rerum dolore! Sapiente, ratione tenetur.
+                </article>
+            </div>
+            <div class="col-md-4 fill">
+                <h3 class="custom-header">Visualizations</h3>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="temperature.html">
+                            <img src="visualizations/Fig1.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="humidity.html">
+                            <img src="visualizations/Fig2.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="cloudiness.html">
+                            <img src="visualizations/Fig3.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="windspeed.html">
+                            <img src="visualizations/Fig4.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
